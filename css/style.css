@@ -1,8 +1,55 @@
+body {
+  background: #343434;
+  color: white;
+}
+
+#main {
+  text-align: center;
+}
+
+#title {
+  background: #e6b31e;
+}
+
 #image {
-    display: block;
-    max-width: 100%;
-   margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border: 10px outset #fcfaf1;
+  box-sizing: border-box;
 }
-#img-div {
-    text-align: center;
+
+#img-caption {
+  background: #fcfaf1;
+  color: black;
+  padding: 10px;
+  display: inline-block;
 }
+
+ul {
+  text-align: left;
+  padding: 10px;
+  margin: 26px auto;
+  max-width: 570px;
+}
+
+li {
+  margin: 10px 0;  
+}
+
+a {
+  color: #cacaca;
+}
+
+a:hover {
+  color: white;
+}
+
+#tribute-info-description {
+  background: #e6b31e;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
